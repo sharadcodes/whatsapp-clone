@@ -5,12 +5,13 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 body {
@@ -23,7 +24,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   color: white !important;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   height: 15vh;
 }
 
@@ -50,7 +51,7 @@ header {
 #nav span {
   color: white;
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   border-bottom: 3px solid white;
   padding: 0rem 0rem 0.5rem 0rem;
   cursor: pointer;
