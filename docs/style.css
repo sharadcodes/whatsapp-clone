@@ -166,7 +166,8 @@ header {
   background-color: transparent;
   display: flex;
   justify-content: space-between;
-  padding: .5rem .4rem;
+  padding: 0.5rem 0.4rem;
+  grid-gap: 5px;
 }
 
 #msg-box-start {
@@ -176,16 +177,20 @@ header {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  width: 80vw;
-  height: 10vh;
+  width: 100%;
+  height: 50px;
 }
 
-#msg-box-end{
+#msg-box-end {
   background-color: #075e54;
   border-radius: 100%;
-  width: 10vh;
-  height: 10vh;
+  width: 60px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#msg-box-end img {
+  max-width: 1.5rem;
 }
