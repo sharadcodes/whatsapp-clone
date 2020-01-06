@@ -175,16 +175,23 @@ header {
   display: flex;
   align-content: center;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 50px;
   color: grey;
   font-size: 1.1rem;
 }
 
-#msg-box-start img{
+#msg-box-start div {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+#msg-box-start img {
   max-width: 1.6rem;
-  margin-left: .6rem;
-  margin-right: .6rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
 }
 
 #msg-box-end {
@@ -201,4 +208,3 @@ header {
 #msg-box-end img {
   max-width: 1.5rem;
 }
-
