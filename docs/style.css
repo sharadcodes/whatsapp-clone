@@ -38,7 +38,7 @@ header {
 }
 
 #top-bar img {
-  height: 1.2rem;
+  height: 1.4rem;
 }
 
 #nav {
@@ -104,4 +104,88 @@ header {
 }
 #tab-calls {
   border-color: #075e54 !important;
+}
+
+/* Personal chat overlay */
+
+#p-chat {
+  /* display: none; */
+  z-index: 200;
+  position: absolute;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#top-actions {
+  position: fixed;
+  width: 100vw;
+  background-color: #075e54;
+  padding: 0.5rem 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#top-actions img {
+  max-height: 8vh;
+  border-radius: 100%;
+}
+
+#start {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+#end {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+#end img {
+  max-height: 2rem;
+  margin-right: 0.6rem;
+}
+
+#msgs {
+  margin-top: 10vh;
+  color: white;
+  margin: 12vh 0;
+}
+
+#msg-box {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem .4rem;
+}
+
+#msg-box-start {
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 10vh;
+}
+
+#msg-box-end{
+  background-color: #075e54;
+  border-radius: 100%;
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
