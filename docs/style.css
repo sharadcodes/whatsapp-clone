@@ -181,6 +181,12 @@ header {
   font-size: 1.1rem;
 }
 
+#msg-box-start img{
+  max-width: 1.6rem;
+  margin-left: .6rem;
+  margin-right: .6rem;
+}
+
 #msg-box-end {
   background-color: #075e54;
   border-radius: 100%;
