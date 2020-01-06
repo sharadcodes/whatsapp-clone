@@ -109,7 +109,7 @@ header {
 /* Personal chat overlay */
 
 #p-chat {
-  /* visibility: hidden; */
+  visibility: hidden;
   z-index: 200;
   position: absolute;
   background-color: #232323;
@@ -207,4 +207,8 @@ header {
 
 #msg-box-end img {
   max-width: 1.5rem;
+}
+
+.show {
+  visibility: visible !important;
 }
