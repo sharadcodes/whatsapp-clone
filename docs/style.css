@@ -109,10 +109,10 @@ header {
 /* Personal chat overlay */
 
 #p-chat {
-  /* display: none; */
+  /* visibility: hidden; */
   z-index: 200;
   position: absolute;
-  background-color: black;
+  background-color: #232323;
   top: 0;
   bottom: 0;
   left: 0;
@@ -167,7 +167,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0.4rem;
-  grid-gap: 5px;
 }
 
 #msg-box-start {
@@ -189,8 +188,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 5px;
 }
 
 #msg-box-end img {
   max-width: 1.5rem;
 }
+
